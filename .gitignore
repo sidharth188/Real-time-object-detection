@@ -1,17 +1,12 @@
 # Auto-generated files
-detection_data.csv
-detections.db
-object_log.csv
 __pycache__/
 *.pyc
-eda_report.pdf
 
 # VSCode or PyCharm configs
 .vscode/
 .idea/
 
-# OS files
-.DS_Store
-Thumbs.db
+*.mp4
+
 
 *.avi
