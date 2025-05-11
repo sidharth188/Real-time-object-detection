@@ -14,7 +14,7 @@ except Exception as e:
     exit()
 
 # Open webcam or video
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("http://192.168.29.181:8080/video")
 if not cap.isOpened():
     print("[ERROR] Failed to access the camera.")
     exit()
